@@ -1,0 +1,22 @@
+[
+  {
+    "raw": {
+      "title": "Data Scientist",
+      "company": "Acme Analytics",
+      "description": "We are seeking a Data Scientist proficient in Python, Machine Learning, and SQL to build predictive models.",
+      "location": "Remote",
+      "job_type": "Full Time",
+      "skills": "Python, Machine Learning, SQL",
+      "url": "https://example.com/jobs/data-scientist",
+      "original_listed_time": "2024-05-10"
+    },
+    "expected": {
+      "title": "Data Scientist",
+      "company": "Acme Analytics",
+      "location": "Remote",
+      "employment_type": "Full Time",
+      "skills": ["python", "machine learning", "sql"],
+      "apply_url": "https://example.com/jobs/data-scientist"
+    }
+  }
+]

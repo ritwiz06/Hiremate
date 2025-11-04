@@ -1,0 +1,20 @@
+[
+  {
+    "text": "John Doe\nEmail: john.doe@example.com\nPhone: +1 123-456-7890\n\nSummary\nExperienced software engineer with a focus on backend systems and cloud services.\n\nExperience\nSoftware Engineer, Acme Corp\nJan 2020 - Present\n- Led migration of legacy APIs to a microservices architecture on AWS.\n\nJunior Developer, Example Labs\nJun 2018 - Dec 2019\n- Implemented data ingestion pipelines using Python and PostgreSQL.\n\nEducation\nBachelor of Science in Computer Science\nUniversity of Somewhere\n2014 - 2018\n\nSkills\nPython, Java, AWS, Docker, PostgreSQL\n\nProjects\nReal-time Monitoring Platform – Built event-driven alerting with Kafka and FastAPI.\n",
+    "expected": {
+      "name": "John Doe",
+      "emails": ["john.doe@example.com"],
+      "skills": ["AWS", "Python", "Docker"],
+      "experience_roles": ["Software Engineer", "Junior Developer"]
+    }
+  },
+  {
+    "text": "Jane Smith\nLinkedIn: linkedin.com/in/janesmith\nEmail: jane.smith@example.org\n\nProfessional Summary\nData analyst with experience in predictive modeling and business intelligence.\n\nProfessional Experience\nSenior Data Analyst - Insight Labs\nMarch 2019 - Present\n- Built forecasting dashboards in Tableau and automated ETL pipelines in SQL.\n\nData Analyst - Metrics & Co.\nJuly 2016 - February 2019\n- Analyzed customer retention and advised marketing teams.\n\nEducation\nMaster of Science, Data Science\nUniversity of Data\n2015 - 2017\n\nSkills\nSQL, Tableau, Machine Learning, Statistics, Python\n",
+    "expected": {
+      "name": "Jane Smith",
+      "emails": ["jane.smith@example.org"],
+      "skills": ["SQL", "Tableau", "Machine Learning"],
+      "experience_roles": ["Senior Data Analyst", "Data Analyst"]
+    }
+  }
+]

@@ -1,0 +1,6 @@
+python scripts/remoteok_fetch.py --output data/remoteok_jobs.json --limit 500
+
+
+python scripts/remotive_fetch.py --output data/remotive_jobs.json  --limit 500
+
+python scripts/weworkremotely_scrape.py --output data/weworkremotely_jobs.json --limit 500
